@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>首页</title>
+</head>
+<body>
+<div class="headerTop">
+    <div class="center">
+        <div class="login fr">
+            <a href="login.html">
+                <img src="images/login.png" alt="">
+                登录
+            </a>
+        </div>
+        <div class="language fr">
+            <a href="javascript:;">
+                <img src="images/language.png" alt="">
+                简体中文
+            </a>
+        </div>
+    </div>
+</div>
+<div class="headerBottom clearfix">
+    <div class="logo fl">
+        <img src="images/logo.png" alt="">
+    </div>
+    <ul class="navUl fr" id="navUl">
+        <li>
+            <img src="images/headerNav1.jpg" alt="">
+        </li>
+        <li class="hide">
+            <img src="images/headerNav1.jpg" alt="">
+        </li>
+    </ul>
+</div>
+<div class="banner">
+    <nav id="nav">
+        <ul>
+            <li>
+                <dl>
+                    <dt>查找伙伴/解决方案</dt>
+                    <dd><a href="javascript:;">查找伙伴</a></dd>
+                    <dd><a href="javascript:;">查找解决方案</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>成为合作伙伴</dt>
+                    <dd><a href="javascript:;">成为销售伙伴</a></dd>
+                    <dd><a href="javascript:;">成为解决方案伙伴</a></dd>
+                    <dd><a href="javascript:;">成为服务伙伴</a></dd>
+                    <dd><a href="javascript:;">成为人才联盟</a></dd>
+                    <dd><a href="javascript:;">云伙伴</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>资源与工具</dt>
+                    <dd><a href="javascript:;">伙伴政策</a></dd>
+                    <dd><a href="javascript:;">生态大学</a></dd>
+                    <dd><a href="javascript:;">OpenLab</a></dd>
+                    <dd><a href="javascript:;">开发者社区</a></dd>
+                    <dd><a href="javascript:;">Support</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>&nbsp;</dt>
+                    <dd><a href="javascript:;">黑名单</a></dd>
+                    <dd><a href="javascript:;">渠道风险警示名单</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </nav>
+    <img src="images/banner.jpg" alt="">
+    <div class="info">
+        <p class="title">携手合作伙伴 打造共赢生态</p>
+        <p class="content"> 华为合作伙伴网络是华为与合作伙伴之间的协作框架，包含一系列的合作伙伴计划，满足各类合作伙伴的不同合作需求，有针对性的给合作伙伴提供资源和支撑，如培训、认证、测试环境、营销和销售支撑、奖励等，确保合作伙伴与我们一起实现客户价值。 </p>
+        <div class="banner_btn">
+            <div class="partner"><a href="javascript:;">查找伙伴</a></div>
+            <div class="partner"><a href="javascript:;">Marketplace</a></div>
+        </div>
+    </div>
+</div>
+<script>
+let navBtn = document.getElementById('navUl'),
+    nav = document.getElementById('nav');
+
+navBtn.onmouseover = function(){
+    nav.style.display = 'block'
+}
+nav.onmouseout = function(){
+    nav.style.display = ''
+
+}
+
+</script>
+<div class="navBlock">
+    <div class="container">
+        <div class="row">
+            <a href="javascript:;">
+                <div class="col-sm-3 ">
+                    <img src="./images/navBlock1.png" alt="">
+                    <p class="title">华为云伙伴</p>
+                    <p class="content"> 在行业或区域内销售华为云产品与服务、提供基于华为云的软件产品或服务、或向客户提供云服务的合作伙伴 </p>
+                </div>
+            </a>
+                <a href="solution.html">
+                <div class="col-sm-3">
+                    <img src="./images/navBlock2.png" alt="">
+                    <p class="title">解决方案伙伴</p>
+                    <p class="content"> 专门从事软件的开发、生产、销售和服 务，具有自主软件产品，能够在华为 eSDK或产品基础上进行二次开发或对接华为软硬件平台的行业应用伙伴 </p>
+                </div>
+            </a>
+                <a href="javascript:;">
+                <div class="col-sm-3">
+                    <img src="./images/navBlock3.png" alt="">
+                    <p class="title">销售伙伴</p>
+                    <p class="content"> 在行业或区域内从事华为产品和解决方案销售的合作伙伴 </p>
+                </div>
+            </a>
+                <a href="javascript:;">
+                <div class="col-sm-3">
+                    <img src="./images/navBlock4.png" alt="">
+                    <p class="title">服务伙伴</p>
+                    <p class="content"> 在行业或区域内从事华为产品和解决方案的工程交付和售后维护的合作伙伴 </p>
+                </div>
+            </a>
+                <a href="javascript:;">
+                <div class="col-sm-3">
+                    <img src="./images/navBlock5.png" alt="">
+                    <p class="title">人才联盟</p>
+                    <p class="content"> 经华为公司授权，面向社会、院校等实施华为认证培训项目，培养ICT人才的合作伙伴 </p>
+                </div>
+            </a>        
+        </div>
+    </div>   
+</div>
+<div class="partner clearfix">
+    <p class="title">成为合作伙伴</p>
+    <div class="row col-sm-8 col-sm-offset-2">
+        <div class="col-sm-6">
+            <div class="circle">1</div>
+            <div class="circleR"></div>
+        </div>
+        <div class="col-sm-6">
+            <div class="circle">2</div>
+            <div class="circleR"></div>
+        </div>
+    </div>
+    <div class="row col-sm-8 col-sm-offset-2">
+        <div class="col-sm-6">
+            <p class="inTitle text-center">申请华为ID</p>
+            <div class="card">
+                如果您已经拥有 <a href="javascript:;">华为账号</a> , 或者您已经登录，请跳过此步骤
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <p class="inTitle text-center">关联或注册公司</p>
+            <div class="card">
+                    如果您的公司已经注册，您可以 <a href="javascript:;">将华为账号关联到您的公司</a> 。 <br /><br /><br />
+                    如果您的公司尚未注册，您可以 <a href="javascript:;">注册伙伴公司</a> 。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="more container">
+    <p class="title">
+        更多资源
+    </p>
+    <div class="col-sm-10 col-sm-offset-1">
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <div class="col-sm-7">伙伴政策</div>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7">营销资料</p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7">生态大学</p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7">合作伙伴行为准则</p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7"> 合作伙伴廉洁承诺书 </p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7"> 黑名单公示 </p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7"> 反腐政策 </p>
+            </a>
+        </div>
+        <div class="col-sm-4 item">
+            <a href="javascript:;">
+                <div class="col-sm-4 pic">
+                    <img src="images/indexMore1.png">
+                </div>
+                <p class="col-sm-7"> 渠道风险警示名单 </p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container footer">
+        <div class="footList clearfix">
+            <dl>
+                <dt>关于华为</dt>
+                <dd><a href="javascript:;">华为工作简介</a></dd>
+                <dd><a href="javascript:;">华为企业业务</a></dd>
+                <dd><a href="javascript:;">华为分支结构</a></dd>
+                <dd><a href="javascript:;">华为新闻</a></dd>
+                <dd><a href="javascript:;">营销活动</a></dd>
+            </dl>
+            <dl>
+                <dt>如何购买</dt>
+                <dd><a href="javascript:;">查找经销商</a></dd>
+                <dd><a href="javascript:;">项目资讯</a></dd>
+            </dl>
+            <dl>
+                <dt>合作伙伴</dt>
+                <dd><a href="javascript:;">权限查询与申请</a></dd>
+                <dd><a href="javascript:;">合作伙伴培训</a></dd>
+                <dd><a href="javascript:;">伙伴政策</a></dd>
+            </dl>
+            <dl>
+                <dt>资源</dt>
+                <dd><a href="javascript:;">技术社区</a></dd>
+                <dd><a href="javascript:;">资料中心</a></dd>
+                <dd><a href="javascript:;">视频中心</a></dd>
+                <dd><a href="javascript:;">电子期刊</a></dd>
+                <dd><a href="javascript:;">成功案例</a></dd>
+            </dl>
+            <dl>
+                <dt>快速链接</dt>
+                <dd><a href="javascript:;">华为集团</a></dd>
+                <dd><a href="javascript:;">消费者业务</a></dd>
+                <dd><a href="javascript:;">运营商网络</a></dd>
+                <dd><a href="javascript:;">华为企业</a></dd>
+                <dd><a href="javascript:;">华为海洋</a></dd>
+            </dl>
+
+
+
+        </div>
+        <div class="footBox">
+            <div class="boxLeft fl">
+                <span class="clearfix">
+                    <a href="javascript:;">
+                        <img src="images/app.png" alt="app下载">
+                    </a>
+                </span>
+            </div>
+            <div class="boxRight fr">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">RSS订阅</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">法律声明</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">隐私保护</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">联系我们</a>
+                    </li>
+                </ul>
+                <p>版权所有 © 华为技术有限公司 1998-2018。 保留一切权利。 
+                    <span>粤A2-20044005号</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

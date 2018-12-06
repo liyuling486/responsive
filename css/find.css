@@ -1,0 +1,132 @@
+.headerTop{
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.headerTop .login{
+    padding: 0 40px;
+    border-left: 1px solid #fff;
+}
+.headerTop .language{
+    position: relative;
+    padding: 0 40px;
+}
+.headerTop .language ul{
+    background: #000;
+    position: absolute;
+    top: 20px;
+    z-index: 9999;
+    overflow: hidden;
+}
+.headerTop .language ul a{
+    color: #000;
+}
+.headerTop a{
+    color: #fff;
+    font-size: 12px;
+}
+.headerBottom{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+.headerBottom span{
+    font-size: 16px;
+    color: #555;
+    margin-right: 30px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 250px;
+}
+.banner .info{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    color: #fff;
+}
+.banner .info .title{
+    font-size: 36px;
+}
+.banner .info .text{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.find-form{
+    width: 750px;
+    margin: 60px auto;
+}
+.find-form .box{
+    float: left;
+    margin: 10px;
+}
+.find-form p{
+    font-size: 16px;
+    color: #000;
+    line-height: 32px;
+}
+.find-form .box input{
+    width: 340px;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.find-form .find-btn{
+    text-align: center;
+}
+.find-form .find-btn input{
+    width: 170px;
+    height: 46px;
+    border: 2px solid #000;
+    background: #fff;
+    margin: 50px 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+    .find-form{
+        width: 90%;
+    }
+    .find-form .box{
+        width: 90%;
+    }
+    .find-form .box input{
+        width: 100%;
+    }
+    .find-form .find-btn input{
+        width: 44%;
+        margin: 50px 5px;
+    }
+}

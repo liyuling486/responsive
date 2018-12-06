@@ -1,0 +1,38 @@
+
+.box{
+    width: 800px;
+}
+
+
+
+
+
+
+@media (max-width: 1024px){
+    .banner img{
+        height: 400px;
+    }
+    .banner .info .title{
+        line-height: 80px;
+        font-size: 36px;
+    }
+    .banner .info .content{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

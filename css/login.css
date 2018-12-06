@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    background: #4C4C4C;
+    padding: 0 100px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+}
+header .goback a{
+    color: #ccc;
+}
+header .goback a:hover{
+    color: #ccc;
+}
+header p{
+    margin-left: 10px;
+}
+.login-main{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.login-main h2{
+    font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.login-main .left p{
+    font-size: 16px;
+    color: #282828;
+    margin-bottom: 20px;
+}
+.login-main input{
+    border: 1px solid #D4D4D4;
+    width: 448px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #888;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.login-main .left{
+    width: 500px;
+    border-bottom: 2px solid #D4D4D4;
+}
+.login-main .left .account a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: underline;
+}
+.login-main .left .login-btn{
+    display: inline-block;
+    width: 174px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #333333;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 20px 0 30px;
+}
+.login-main .right{
+    margin-left: 100px;
+    width: 400px;
+}
+.login-main .right p{
+    font-size: 15px;
+    color: #282828;
+    line-height: 30px;
+    font-weight: 600;
+}
+.login-main .right span{
+    font-size: 12px;
+    color: #282828;
+    line-height: 25px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.login-main .right span a{
+    color: #008BD0;
+    margin: 0 10px;
+}
+.login-text{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #282828;
+}
+.login-text a{
+    color: #282828;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

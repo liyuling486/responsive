@@ -1,0 +1,50 @@
+.banner .mask{
+    width: 100%;
+    height: 56px;
+    padding: 0 5%;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    color: #fff;
+    line-height: 56px;
+    z-index: 9999;
+}
+.banner .mask-scroll{
+    position: fixed;
+    top: 0;
+}
+.banner .mask .mask-left a{
+    color: #fff;
+}
+.banner .mask .mask-right li{
+    float: left;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.banner .mask .mask-right li a{
+    color: #a9a9a9;
+}
+.banner .mask .mask-right li a:hover{
+    color: #fff;
+}
+.banner .mask .mask-right li.act{
+    background: #A81E1E;
+}
+.banner .mask .mask-right li.act a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
